@@ -1,0 +1,239 @@
+// write a c program to print your name
+/*
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter your name: ");
+    scanf("%d",&a);
+    return 0;
+}
+*/
+// write a c program to print a) pre increment & decrement,  b) post increment &decrement
+/*
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter any number: ");
+    scanf("%d",&a);
+    ++a;
+    printf("%d is preincremented number \n",a);
+    a++;
+    printf("%d is post incremented number \n",a);
+    --a;
+    printf("%d is pre decremented number \n",a);
+    a--;
+    printf("%d is post decremented number \n",a);
+    return 0;
+}
+*/
+
+// write a c program to perform arithmatic operater in number
+/*
+#include<stdio.h>
+int main()
+{
+    int num1, num2, sum, diff, multi, div, mod;
+    printf("Enter any two number to perform arthmatic operation: ");
+    scanf("%d%d",&num1, &num2);
+    sum = num1+num2;
+    printf("%d is the sum of two number: \n",sum);
+    diff= num1-num2;
+    printf("%d is the difference of two number: \n",diff);
+    multi = num1*num2;
+    printf("%d is the multiplication of two number: \n",multi);
+    div= num1/num2;
+    printf("%d is the division of two number: \n",div);
+    mod = num1% num2;
+    printf("%d is the modulus of two number: \n",mod);
+    return 0;
+}
+*/
+
+// write a cprogram to find a number even or odd
+/*
+#include<stdio.h>
+int main()
+{
+    int num, even, odd;
+    printf("Enter any number to check weather it is odd or even: ");
+    scanf("%d",&num);
+    if (num % 2 == 0)
+    {
+        printf("%d is an even number",num);
+    }
+    else{
+        printf("%d is an odd number",num);
+    }
+    return 0;
+
+}
+*/
+
+// write a c program to make a simple calculater using switch case
+/*
+#include<stdio.h>
+int main()
+{
+    int num1, num2, op, result;
+    printf("Enter any two number: ");
+    scanf("%d%d",&num1, &num2);
+    printf("Enter any mathematical operation: ");
+    scanf("%d",&op);
+    switch (op)
+    {
+    case '+':
+        result= num1 + num2;
+        break;
+     case '-':
+        result= num1 - num2;
+        break;
+     case '*':
+        result= num1 * num2;
+        break;
+     case '/':
+        result= num1 / num2;
+        break;
+
+    default:
+        printf("Enter a valid choice");
+        break;
+    }
+    printf("%d",result);
+}
+*/
+
+// write a c proram to find the reverse of the number
+/*
+#include<stdio.h>
+int main()
+{
+    int num, reminder, reverse = 0;
+    printf("Enter any number: ");
+    scanf("%d",&num);
+    while (num != 0)
+    {
+        reminder = num % 10;
+        reverse = reverse * 10 + reminder;
+        num = num/10;
+    }
+    printf("%d is the reverse of the number", reverse);
+    return 0;
+
+
+}
+*/
+
+// write a cprogram to find out the sum of all digits
+/*
+#include <stdio.h>
+int main()
+{
+    int num, sum = 0, m;
+    printf("Enter any number: ");
+    scanf("%d", &num);
+    while (num > 0)
+    {
+        m = num % 10;
+        sum = sum + m;
+        num = num / 10;
+    }
+    printf("%d is the sum", sum);
+    return 0;
+}
+*/
+// wap in c to find the sum of first and last digit
+/*
+#include <stdio.h>
+int main()
+{
+    int first_digit, last_digit, sum = 0, num;
+    printf("enter any number: ");
+    scanf("%d", &num);
+    last_digit = num % 10;
+    while (num >= 10)
+    {
+        num = num / 10;
+    }
+    first_digit = num;
+    sum = first_digit + last_digit;
+    printf("%d is the sum of first and last digit of the given number", sum);
+    return 0;
+}
+*/
+// wap to find that the number is amstrong or not
+/*
+#include<stdio.h>
+int main()
+{
+    int num, original_num, last_digit, result=0;
+    printf("Enter an three number: ");
+    scanf("%d", &num);
+    original_num = num;
+
+    while (original_num != 0)
+    {
+        last_digit = original_num % 10;
+        result += last_digit * last_digit * last_digit;
+        original_num /= 10;
+    }
+    if (result == num)
+    {
+        printf("%d is an amastrong number", num);
+    }
+    else{
+        printf("%d is not an amstrong number", num);
+    }
+    return 0;
+    
+}
+*/
+// wap to find the factorial of the given number
+/*
+#include<stdio.h>
+int main()
+{
+    int num, fact=1;
+    printf("enter any number: ");
+    scanf("%d",&num);
+    for (int i = 1; i <= num; i++)
+    {
+    fact = fact*i;
+
+    }
+    printf("%d is the factorial of the given number",fact);
+
+    return 0;
+    
+}
+*/
+
+// wap to find out the average of n numbers using array
+/*
+#include<stdio.h>
+int main()
+{
+    int arr[5], n, avg, sum=0;
+    printf("Enter the number of elements of the array: ");
+    scanf("%d",&n);
+    printf("Enter the elements of the array: ");
+    for (int i = 0; i <= n; i++)
+    {
+        scanf("%d",&i);
+        sum += i;
+    }
+    avg = sum / n;
+    printf("%d is the average of the number", avg);
+    return 0;
+
+}
+*/
+
+// wap to find the addition of two matrices
+#include<stdio.h>
+int main()
+{
+    int n, arr[i], arr[j];
+    printf("Enter ")
+}
