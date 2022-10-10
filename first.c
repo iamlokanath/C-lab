@@ -366,3 +366,34 @@ int main()
     return 0;
 }
 */
+//wap in c to convert decimal into binary using function
+
+
+//wap in c to show the call by value and call by refernce concept
+
+//wap to find out the factorial of the given number using recursion function
+/*
+#include<stdio.h>
+
+long factorial(int n)
+{
+    if(n==0)
+    
+        return 1;
+    else
+
+    return n*factorial(n-1);
+
+}
+int main()
+{
+    int num;
+    long fact;
+    printf("Enter the given number: ");
+    scanf("%d", &num);
+    fact = factorial(num);
+    printf("%d is the factorial of the given number",fact);
+    return 0;
+}
+
+*/
