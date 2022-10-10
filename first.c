@@ -266,6 +266,7 @@ int main()
 }
 */
 // wap to perform multiplication two matrices
+/*
 #include <stdio.h>
 int main()
 {
@@ -315,3 +316,53 @@ int main()
     }
     return 0;
 }
+*/
+
+// wap in c to read the string using gets() function and print it using puts() function
+/*
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char name[50];
+    printf("Enter your name: ");
+    gets(name);
+    printf("Your name is: ");
+    puts(name);
+    return 0;
+}
+
+*/
+
+// wap in c to copy one string from another using strcpy() library function
+/*
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char str1[50] = "Lokanath Panda";
+    char str2[50];
+    strcpy(str2, str1);
+    puts(str2);
+    return 0;
+}
+*/
+
+//wap in c to add two numbers using function
+/*
+#include<stdio.h>
+int sum_two(int x, int y){
+    return x+y;
+}
+int main()
+{
+    int a, b, sum;
+    printf("Enter the first number: ");
+    scanf("%d", &a);
+    printf("Enter the first number: ");
+    scanf("%d", &b);
+    sum= sum_two(a, b);
+    printf("%d is the sum of two number", sum);
+    return 0;
+}
+*/
