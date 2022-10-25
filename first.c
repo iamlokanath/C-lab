@@ -371,7 +371,7 @@ int main()
 
 //wap in c to show the call by value and call by refernce concept
 
-//wap to find out the factorial of the given number using recursion function
+//wap to find out the factorial of the given number using recursion 
 /*
 #include<stdio.h>
 
@@ -396,4 +396,6 @@ int main()
     return 0;
 }
 
+
+// Lokanath Panda
 */
